@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ai_env/
+
+# Dataset
+dataset/
+
+# Streamlit
+.streamlit/
+
+# Dashboard generated files
+dashboard_uploads/
+dashboard_results/
+
+# Generated outputs
+ocean_x_results.json
+ocean_x_results.csv
+ocean_x_final_detection.png
+ocean_x_full_inference.png
+ocean_x_prototype_demo.png
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Experimental scripts
+check_old_model.py
+create_hard_negative_list.py
+dashboard_v1_backup.py
+diagnose_model.py
+diagnose_old_model.py
+final_hard_negative_test.py
+final_region_filter_test.py
+final_test.py
+final_v2_best_threshold_test.py
+final_v3_test.py
+find_false_positives.py
+full_image_inference.py
+inspect_false_positive.py
+inspect_nadir_false_positives.py
+merge_detections.py
+mine_hard_negatives.py
+per_image_test.py
+region_filter_v1.py
+target_filter_v1.py
+tensor_test.py
+test_analysis_proper.py
+test_model.py
+train_hard_negative.py
+visualize_hard_negatives.py
+visualize_test.py
